@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>INK - Cursos e Produtos de Arte</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="nav_logo" class="fa-solid fa-palette">INK</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">Produtos</button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <button class="btn-default">Produtos</button>
+            </ul>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    A arte vai até 
+                    <span>você</span>
+                </h1>
+                <p class="description">Cursos de arte e materiais criativos em um só lugar. Aprenda, crie e inspire-se com a INK!</p>
+
+                <div id="cta_buttons">
+                        <a href="tel:+55555555555" id="phone_button" class="btn-default">
+                        <i class="fa-solid fa-phone"></i>
+                        (55) 55555-5555
+                        </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/styles/img/arteprosite.png" alt="Arte colorida com pincéis e tintas">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cursos em Destaque</h2>
+            <h3 class="section-subtitle">Explore seu lado criativo</h3>
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/styles/img/curso1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Aquarela
+                    </h3>
+
+                    <span class="dish-description">
+                        Aprenda a manipular as cores a seu favor!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$150,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/styles/img/curso2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Desenho Artístico
+                    </h3>
+
+                    <span class="dish-description">
+                        Utilize do realismo para suas obras!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$200,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/styles/img/curso3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Arte Digital
+                    </h3>
+
+                    <span class="dish-description">
+                        Dê um toque de modernidade as suas ideias!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$100,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/styles/img/curso4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Pixel Art
+                    </h3>
+
+                    <span class="dish-description">
+                        Crie coisas incríveis através de simples pixels!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$80,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/styles/img/artista.png" id="testimonial_artist" alt="">
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que nossos clientes dizem</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/styles/img/avatar.png" class="feedback-avatar" alt="Cliente 1">
+                        <div class="feedback-content">
+                            <p>Samuel Carvalho
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Os pincéis que comprei são de ótima qualidade e os cursos são bem didáticos. Recomendo muito!"</p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/styles/img/avatar.png" class="feedback-avatar" alt="Cliente 2">
+                        <div class="feedback-content">
+                            <p> João Guilherme
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Material excelente, o curso de arte digital me fez dar um passo a mais nos meus projetos. Muito bom!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">Ver mais avaliações</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+        <div id="footer_items">
+            <span>&copy; 2025 INK - Arte e Inspiração</span>
+            <div class="social-media-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/styles/javascript/script.js"></script>
+</body>
+</html>
