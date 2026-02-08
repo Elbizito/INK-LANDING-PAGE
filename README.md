@@ -1,6 +1,4 @@
-PROJETO FEITO SEGUINDO TUTORIAL DO YOUTUBE, CRÉDITOS: https://youtu.be/8V3mw1w6h0U?si=hw4pAlavEn9Cxz1I
 
-(FORAM FEITAS ALTERAÇÕES E MUDANÇAS )
 
 INK - Cursos e Produtos de Arte Descrição do Projeto INK é uma pra ser uma plataforma dedicada a oferecer cursos de arte e materiais criativos em um só lugar. Nosso objetivo é democratizar o acesso à educação artística, permitindo que a arte chegue até você, onde quer que esteja. Através de cursos didáticos e produtos de alta qualidade, inspiramos a criatividade e ajudamos nossos usuários a explorar e desenvolver seu lado artístico.
 
